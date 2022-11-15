@@ -1,0 +1,23 @@
+body {
+    background-color: lightseagreen;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: lightblue;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    box-shadow: 0 6px 8px 0 black;
+}
+
+img:hover {
+    border-radius: 140px;
+}

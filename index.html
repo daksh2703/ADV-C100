@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <a href="" id="link" download="image.png"></a>
+            <h1>Collage Web App
+            </h1>
+            <hr>
+            <h4 style="color:red;background-color: beige;border-radius: 10px;">Please press allow as soon as popup comes after you give a voice command</h4>
+
+            <div class="form-group">
+                <h3>Say "selfie" or "picture" for taking your selfie and to make a collage</h3>
+                <label>Your voice output : </label>
+                <textarea class="form-control" id="output" readonly="true"></textarea>
+            </div>
+
+            <p>Press the Start button</p>
+            <button class="btn btn-primary" onclick="start()">Start</button>
+            <br>
+            <label>Your webcam : </label>
+            <div id="webcam"></div>
+            <br>
+
+            <label>All selifes will be displayed here: </label>
+            <br><br>
+            <div id="selfie">
+                <div id="result1">
+                    <img align="left" src="pit-bull-featured.jpg" style="width:500px; height:275px;">
+                </div><br>
+                <Div id="result2">
+                    <img src="shutterstock_673465372.jpg" style="width:500px;height:275px;">
+                </Div><br>
+                <div id="result3">
+                    <img src="group-portrait-adorable-puppies_53876-64778.webp" style="width:500px;height:275px;">
+                </div><br>
+            </div>
+        </center>
+        <div class="footer">
+            Developed by - Daksh
+        </div>
+</body>
+<script src="app.js"></script>
+</html>
